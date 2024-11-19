@@ -1,9 +1,7 @@
 from openai import OpenAI
 
 # Your API key is like a password to use OpenAI. Keep it secret!
-# Get your API key from the environment instead of hardcoding it.
-import os
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = "sk-"
 
 # "client" is your personal helper that will connect 
 # to OpenAI's system using your unique API key.
